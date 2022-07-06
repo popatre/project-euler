@@ -19,6 +19,7 @@ function bruteFindLowestCommonMultiple(maxNum) {
 //Prime factor method. 1ms
 
 function findPrimeFactors(maxNum) {
+    //needs a prime number generator/function to be fully dynamic - currently only works until maxNum 22
     const primes = [19, 17, 13, 11, 7, 5, 3, 2];
 
     const primeFactors = [];
