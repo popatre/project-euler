@@ -1,4 +1,4 @@
-/** Brute force method */
+/** Brute force method 78ms */
 
 function bruteFindLowestCommonMultiple(maxNum) {
     for (let int = maxNum; ; int += maxNum) {
@@ -16,7 +16,7 @@ function bruteFindLowestCommonMultiple(maxNum) {
 
 /************************************************/
 
-//Prime factor method.
+//Prime factor method. 1ms
 
 function findPrimeFactors(maxNum) {
     const primes = [19, 17, 13, 11, 7, 5, 3, 2];
